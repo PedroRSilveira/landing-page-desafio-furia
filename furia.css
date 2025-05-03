@@ -1,0 +1,308 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+h1, h2 {
+  color: #e60000;
+}
+.btn-telegram {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #0088cc;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn-telegram:hover {
+  background-color: #006699;
+}
+.lineup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.player {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+}
+.player img {
+  width: 100%;
+  border-radius: 8px;
+}
+.player-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #777;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.match {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+.score {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.versus {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.match-details {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #999;
+}
+
+.upcoming-matches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.upcoming-match {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.upcoming-match .match-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upcoming-match .teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.upcoming-match .match-details {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #999;
+}
+
+.player-stats {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+margin-top: 30px;
+}
+
+.player-card {
+background-color: #1a1a1a;
+border-radius: 10px;
+padding: 20px;
+width: 180px;
+text-align: center;
+box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.player-card img.player-photo {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+.stats-list {
+list-style: none;
+padding: 0;
+margin-top: 10px;
+font-size: 14px;
+color: #ccc;
+}
+
+.stats-list li {
+margin-bottom: 5px;
+}
+
+.comments-section {
+margin-top: 40px;
+background-color: #1a1a1a;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.comment-box {
+margin-bottom: 30px;
+}
+
+.comment-box h3 {
+color: #fff;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+#comment-input {
+width: 100%;
+padding: 10px;
+background-color: #333;
+color: #fff;
+border: 1px solid #444;
+border-radius: 5px;
+resize: vertical;
+margin-bottom: 15px;
+}
+
+#submit-comment {
+padding: 10px 15px;
+background-color: #f8c200;
+color: #000;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#submit-comment:hover {
+background-color: #e6b800;
+}
+
+.comments-list {
+margin-top: 20px;
+}
+
+.comment-card {
+background-color: #262626;
+border-radius: 10px;
+padding: 15px;
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+}
+
+.comment-author {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.comment-author-photo {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.comment-author p {
+color: #fff;
+font-size: 14px;
+margin: 0;
+}
+
+.comment-time {
+font-size: 12px;
+color: #888;
+margin-left: 10px;
+}
+
+.comment-text {
+color: #ccc;
+font-size: 14px;
+text-align: left;
+}
+
+.like-section {
+margin-top: 10px;
+}
+
+.like-button {
+cursor: pointer;
+color: #f8c200;
+font-size: 16px;
+display: flex;
+align-items: center;
+}
+
+.like-button:hover {
+text-decoration: underline;
+}
+
+.heart-icon {
+margin-right: 5px;
+color: black;
+}
+
+.liked .heart-icon {
+color: red;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
